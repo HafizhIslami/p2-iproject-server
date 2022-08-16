@@ -8,6 +8,5 @@ router.use("/user", userRouter);
 router.use(authentication);
 router.use("/product", productRouter);
 router.use("/service", serviceRouter);
-router.use("/request", serviceRouter);
 
 module.exports = router;
